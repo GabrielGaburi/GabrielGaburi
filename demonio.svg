@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img" aria-label="Um demônio programando em um notebook">
+  <rect width="800" height="300" rx="14" fill="#0d1117"/>
+  <!-- cauda -->
+  <path d="M150 245 Q95 258 105 205 Q110 185 90 178" fill="none" stroke="#e0483a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M80 170 L100 172 L92 190 Z" fill="#7a1510"/>
+  <!-- corpo -->
+  <ellipse cx="200" cy="230" rx="56" ry="62" fill="#b3261e"/>
+  <!-- chifres -->
+  <path d="M163 100 L146 48 L186 86 Z" fill="#7a1510"/>
+  <path d="M237 100 L254 48 L214 86 Z" fill="#7a1510"/>
+  <!-- cabeça -->
+  <circle cx="200" cy="132" r="48" fill="#e0483a"/>
+  <!-- olhos -->
+  <ellipse cx="183" cy="126" rx="9" ry="11" fill="#ffd23f"/>
+  <ellipse cx="217" cy="126" rx="9" ry="11" fill="#ffd23f"/>
+  <rect x="181.5" y="117" width="3" height="18" rx="1.5" fill="#1a0504"/>
+  <rect x="215.5" y="117" width="3" height="18" rx="1.5" fill="#1a0504"/>
+  <path d="M170 110 L194 118" stroke="#3a0a07" stroke-width="4" stroke-linecap="round"/>
+  <path d="M230 110 L206 118" stroke="#3a0a07" stroke-width="4" stroke-linecap="round"/>
+  <!-- sorriso -->
+  <path d="M178 152 Q200 172 222 152" fill="none" stroke="#3a0a07" stroke-width="4" stroke-linecap="round"/>
+  <!-- braços digitando -->
+  <path d="M240 215 Q290 205 330 222" fill="none" stroke="#e0483a" stroke-width="15" stroke-linecap="round"/>
+  <!-- notebook -->
+  <rect x="330" y="60" width="310" height="172" rx="9" fill="#161b22" stroke="#30363d" stroke-width="3"/>
+  <path d="M300 232 H670 L650 252 H320 Z" fill="#30363d"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="15">
+    <text x="350" y="92"><tspan fill="#ff7b72">def</tspan> <tspan fill="#d2a8ff">apoiar</tspan><tspan fill="#c9d1d9">(pessoa):</tspan></text>
+    <text x="350" y="118"><tspan fill="#ff7b72">    if</tspan> <tspan fill="#c9d1d9">risco(pessoa):</tspan></text>
+    <text x="350" y="144"><tspan fill="#ff7b72">        return</tspan> <tspan fill="#79c0ff">humano</tspan><tspan fill="#c9d1d9">()</tspan></text>
+    <text x="350" y="170"><tspan fill="#ff7b72">    return</tspan> <tspan fill="#79c0ff">ia</tspan><tspan fill="#c9d1d9">()</tspan></text>
+    <text x="350" y="204" fill="#8b949e"># bug? só no 666</text>
+  </g>
+  <rect x="352" y="210" width="9" height="3" fill="#c9d1d9" opacity="0.0"/>
+  <text x="400" y="284" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#8b949e">Gabriel Gaburi · Python · SQL · Cibersegurança</text>
+</svg>

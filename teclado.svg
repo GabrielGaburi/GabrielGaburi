@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" role="img" aria-label="Código sendo digitado em um teclado: Gabriel, estudante de Ciência da Computação">
+  <style>
+    .bg { fill: #0d1117; }
+    .win { fill: #161b22; stroke: #30363d; stroke-width: 2; }
+    .code { font-family: Consolas, "Courier New", monospace; font-size: 18px; fill: #c9d1d9; white-space: pre; }
+    .kw { fill: #ff7b72; } .cl { fill: #d2a8ff; } .st { fill: #a5d6ff; } .id { fill: #79c0ff; }
+    .k { fill: #21262d; stroke: #30363d; stroke-width: 1.5; animation: tecla 3.1s infinite; }
+    @keyframes tecla {
+      0%, 8%, 100% { fill: #21262d; }
+      3% { fill: #58a6ff; }
+    }
+    .c1 { animation: d1 9s infinite; }
+    .c2 { animation: d2 9s infinite; }
+    .c3 { animation: d3 9s infinite; }
+    @keyframes d1 { 0% { width: 0; } 14% { width: 160px; } 100% { width: 160px; } }
+    @keyframes d2 { 0%, 14% { width: 0; } 48% { width: 640px; } 100% { width: 640px; } }
+    @keyframes d3 { 0%, 48% { width: 0; } 76% { width: 480px; } 100% { width: 480px; } }
+    .reset { animation: apagar 9s infinite; }
+    @keyframes apagar { 0%, 94% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .cursor { fill: #58a6ff; animation: piscar 1s steps(1) infinite; }
+    @keyframes piscar { 50% { opacity: 0; } }
+  </style>
+  <defs>
+    <clipPath id="l1"><rect class="c1" x="40" y="44" height="26" width="0"/></clipPath>
+    <clipPath id="l2"><rect class="c2" x="40" y="72" height="26" width="0"/></clipPath>
+    <clipPath id="l3"><rect class="c3" x="40" y="100" height="26" width="0"/></clipPath>
+  </defs>
+  <rect class="bg" width="800" height="280" rx="14"/>
+  <rect class="win" x="20" y="16" width="760" height="130" rx="10"/>
+  <circle cx="42" cy="32" r="5" fill="#ff5f56"/><circle cx="60" cy="32" r="5" fill="#ffbd2e"/><circle cx="78" cy="32" r="5" fill="#27c93f"/>
+  <g class="reset">
+    <g clip-path="url(#l1)"><text class="code" x="40" y="64"><tspan class="kw">class</tspan> <tspan class="cl">Gabriel</tspan>:</text></g>
+    <g clip-path="url(#l2)"><text class="code" x="40" y="92">    <tspan class="id">estuda</tspan> = [<tspan class="st">"Ciência da Computação"</tspan>, <tspan class="st">"Cibersegurança"</tspan>]</text></g>
+    <g clip-path="url(#l3)"><text class="code" x="40" y="120">    <tspan class="id">busca</tspan>  = <tspan class="st">"estágio | júnior | suporte"</tspan></text></g>
+  </g>
+  <rect class="cursor" x="40" y="128" width="10" height="14"/>
+  <rect class="k" x="95" y="158" width="38" height="22" rx="5" style="animation-delay:-0.00s"/>
+  <rect class="k" x="139" y="158" width="38" height="22" rx="5" style="animation-delay:-0.37s"/>
+  <rect class="k" x="183" y="158" width="38" height="22" rx="5" style="animation-delay:-0.74s"/>
+  <rect class="k" x="227" y="158" width="38" height="22" rx="5" style="animation-delay:-1.11s"/>
+  <rect class="k" x="271" y="158" width="38" height="22" rx="5" style="animation-delay:-1.48s"/>
+  <rect class="k" x="315" y="158" width="38" height="22" rx="5" style="animation-delay:-1.85s"/>
+  <rect class="k" x="359" y="158" width="38" height="22" rx="5" style="animation-delay:-2.22s"/>
+  <rect class="k" x="403" y="158" width="38" height="22" rx="5" style="animation-delay:-2.59s"/>
+  <rect class="k" x="447" y="158" width="38" height="22" rx="5" style="animation-delay:-2.96s"/>
+  <rect class="k" x="491" y="158" width="38" height="22" rx="5" style="animation-delay:-0.23s"/>
+  <rect class="k" x="535" y="158" width="38" height="22" rx="5" style="animation-delay:-0.60s"/>
+  <rect class="k" x="579" y="158" width="38" height="22" rx="5" style="animation-delay:-0.97s"/>
+  <rect class="k" x="623" y="158" width="38" height="22" rx="5" style="animation-delay:-1.34s"/>
+  <rect class="k" x="667" y="158" width="38" height="22" rx="5" style="animation-delay:-1.71s"/>
+  <rect class="k" x="117" y="186" width="38" height="22" rx="5" style="animation-delay:-2.08s"/>
+  <rect class="k" x="161" y="186" width="38" height="22" rx="5" style="animation-delay:-2.45s"/>
+  <rect class="k" x="205" y="186" width="38" height="22" rx="5" style="animation-delay:-2.82s"/>
+  <rect class="k" x="249" y="186" width="38" height="22" rx="5" style="animation-delay:-0.09s"/>
+  <rect class="k" x="293" y="186" width="38" height="22" rx="5" style="animation-delay:-0.46s"/>
+  <rect class="k" x="337" y="186" width="38" height="22" rx="5" style="animation-delay:-0.83s"/>
+  <rect class="k" x="381" y="186" width="38" height="22" rx="5" style="animation-delay:-1.20s"/>
+  <rect class="k" x="425" y="186" width="38" height="22" rx="5" style="animation-delay:-1.57s"/>
+  <rect class="k" x="469" y="186" width="38" height="22" rx="5" style="animation-delay:-1.94s"/>
+  <rect class="k" x="513" y="186" width="38" height="22" rx="5" style="animation-delay:-2.31s"/>
+  <rect class="k" x="557" y="186" width="38" height="22" rx="5" style="animation-delay:-2.68s"/>
+  <rect class="k" x="601" y="186" width="38" height="22" rx="5" style="animation-delay:-3.05s"/>
+  <rect class="k" x="645" y="186" width="38" height="22" rx="5" style="animation-delay:-0.32s"/>
+  <rect class="k" x="161" y="214" width="38" height="22" rx="5" style="animation-delay:-0.69s"/>
+  <rect class="k" x="205" y="214" width="38" height="22" rx="5" style="animation-delay:-1.06s"/>
+  <rect class="k" x="249" y="214" width="38" height="22" rx="5" style="animation-delay:-1.43s"/>
+  <rect class="k" x="293" y="214" width="38" height="22" rx="5" style="animation-delay:-1.80s"/>
+  <rect class="k" x="337" y="214" width="38" height="22" rx="5" style="animation-delay:-2.17s"/>
+  <rect class="k" x="381" y="214" width="38" height="22" rx="5" style="animation-delay:-2.54s"/>
+  <rect class="k" x="425" y="214" width="38" height="22" rx="5" style="animation-delay:-2.91s"/>
+  <rect class="k" x="469" y="214" width="38" height="22" rx="5" style="animation-delay:-0.18s"/>
+  <rect class="k" x="513" y="214" width="38" height="22" rx="5" style="animation-delay:-0.55s"/>
+  <rect class="k" x="557" y="214" width="38" height="22" rx="5" style="animation-delay:-0.92s"/>
+  <rect class="k" x="601" y="214" width="38" height="22" rx="5" style="animation-delay:-1.29s"/>
+  <rect class="k" x="270" y="242" width="260" height="22" rx="5" style="animation-delay:-1.66s"/>
+</svg>

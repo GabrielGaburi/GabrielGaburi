@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img" aria-label="Uma caveira de fone de ouvido programando em um notebook">
+  <style>
+    .code { font-family: Consolas, Menlo, "DejaVu Sans Mono", monospace; font-size: 16px; fill: #c9d1d9; white-space: pre; }
+    .kw { fill: #ff7b72; } .cl { fill: #d2a8ff; } .st { fill: #a5d6ff; } .id { fill: #79c0ff; }
+    .k { fill: #21262d; stroke: #30363d; stroke-width: 1.5; animation: tecla 3.3s infinite; }
+    @keyframes tecla { 0%, 9%, 100% { fill: #21262d; } 3% { fill: #58a6ff; } }
+    .mao { animation: bater .5s ease-in-out infinite alternate; }
+    @keyframes bater { from { transform: translateY(0); } to { transform: translateY(4px); } }
+    .cabeca { animation: balanca 1.6s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: 50% 100%; }
+    @keyframes balanca { from { transform: rotate(-2deg) translateY(0); } to { transform: rotate(2deg) translateY(-3px); } }
+    .mandibula { animation: mastigar .45s ease-in-out infinite alternate; }
+    @keyframes mastigar { from { transform: translateY(0); } to { transform: translateY(4px); } }
+    .olho { fill: #58a6ff; animation: brilho 2.4s ease-in-out infinite; }
+    @keyframes brilho { 0%, 90%, 100% { opacity: 1; } 94% { opacity: .1; } 50% { opacity: .65; } }
+    .c1 { animation: d1 9s infinite; } .c2 { animation: d2 9s infinite; }
+    .c3 { animation: d3 9s infinite; } .c4 { animation: d4 9s infinite; }
+    @keyframes d1 { 0% { width: 0; } 12% { width: 150px; } 100% { width: 150px; } }
+    @keyframes d2 { 0%, 12% { width: 0; } 38% { width: 360px; } 100% { width: 360px; } }
+    @keyframes d3 { 0%, 38% { width: 0; } 60% { width: 290px; } 100% { width: 290px; } }
+    @keyframes d4 { 0%, 60% { width: 0; } 84% { width: 420px; } 100% { width: 420px; } }
+    .reset { animation: apagar 9s infinite; }
+    @keyframes apagar { 0%, 94% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .cursor { fill: #58a6ff; animation: piscar 1s steps(1) infinite; }
+    @keyframes piscar { 50% { opacity: 0; } }
+  </style>
+  <defs>
+    <clipPath id="l1"><rect class="c1" x="324" y="52" height="24" width="0"/></clipPath>
+    <clipPath id="l2"><rect class="c2" x="324" y="78" height="24" width="0"/></clipPath>
+    <clipPath id="l3"><rect class="c3" x="324" y="104" height="24" width="0"/></clipPath>
+    <clipPath id="l4"><rect class="c4" x="324" y="130" height="24" width="0"/></clipPath>
+  </defs>
+  <rect width="800" height="300" rx="14" fill="#0d1117"/>
+
+  <!-- notebook -->
+  <rect x="300" y="26" width="470" height="174" rx="10" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+  <circle cx="320" cy="40" r="4" fill="#ff5f56"/><circle cx="334" cy="40" r="4" fill="#ffbd2e"/><circle cx="348" cy="40" r="4" fill="#27c93f"/>
+  <g class="reset">
+    <g clip-path="url(#l1)"><text class="code" x="324" y="70"><tspan class="kw">class</tspan> <tspan class="cl">Gabriel</tspan>:</text></g>
+    <g clip-path="url(#l2)"><text class="code" x="324" y="96">  <tspan class="id">estuda</tspan> = <tspan class="st">"Ciência da Computação"</tspan></text></g>
+    <g clip-path="url(#l3)"><text class="code" x="324" y="122">  <tspan class="id">foco</tspan>   = <tspan class="st">"Cibersegurança"</tspan></text></g>
+    <g clip-path="url(#l4)"><text class="code" x="324" y="148">  <tspan class="id">busca</tspan>  = <tspan class="st">"estágio | júnior | suporte"</tspan></text></g>
+  </g>
+  <rect class="cursor" x="324" y="160" width="9" height="14"/>
+  <path d="M250 204 H800 L792 292 H258 Z" fill="#1c2128" stroke="#30363d" stroke-width="2"/>
+  <rect class="k" x="272" y="216" width="36" height="18" rx="4" style="animation-delay:-0.00s"/>
+  <rect class="k" x="314" y="216" width="36" height="18" rx="4" style="animation-delay:-0.41s"/>
+  <rect class="k" x="356" y="216" width="36" height="18" rx="4" style="animation-delay:-0.82s"/>
+  <rect class="k" x="398" y="216" width="36" height="18" rx="4" style="animation-delay:-1.23s"/>
+  <rect class="k" x="440" y="216" width="36" height="18" rx="4" style="animation-delay:-1.64s"/>
+  <rect class="k" x="482" y="216" width="36" height="18" rx="4" style="animation-delay:-2.05s"/>
+  <rect class="k" x="524" y="216" width="36" height="18" rx="4" style="animation-delay:-2.46s"/>
+  <rect class="k" x="566" y="216" width="36" height="18" rx="4" style="animation-delay:-2.87s"/>
+  <rect class="k" x="608" y="216" width="36" height="18" rx="4" style="animation-delay:-3.28s"/>
+  <rect class="k" x="650" y="216" width="36" height="18" rx="4" style="animation-delay:-0.39s"/>
+  <rect class="k" x="692" y="216" width="36" height="18" rx="4" style="animation-delay:-0.80s"/>
+  <rect class="k" x="734" y="216" width="36" height="18" rx="4" style="animation-delay:-1.21s"/>
+  <rect class="k" x="272" y="240" width="36" height="18" rx="4" style="animation-delay:-1.62s"/>
+  <rect class="k" x="314" y="240" width="36" height="18" rx="4" style="animation-delay:-2.03s"/>
+  <rect class="k" x="356" y="240" width="36" height="18" rx="4" style="animation-delay:-2.44s"/>
+  <rect class="k" x="398" y="240" width="36" height="18" rx="4" style="animation-delay:-2.85s"/>
+  <rect class="k" x="440" y="240" width="36" height="18" rx="4" style="animation-delay:-3.26s"/>
+  <rect class="k" x="482" y="240" width="36" height="18" rx="4" style="animation-delay:-0.37s"/>
+  <rect class="k" x="524" y="240" width="36" height="18" rx="4" style="animation-delay:-0.78s"/>
+  <rect class="k" x="566" y="240" width="36" height="18" rx="4" style="animation-delay:-1.19s"/>
+  <rect class="k" x="608" y="240" width="36" height="18" rx="4" style="animation-delay:-1.60s"/>
+  <rect class="k" x="650" y="240" width="36" height="18" rx="4" style="animation-delay:-2.01s"/>
+  <rect class="k" x="692" y="240" width="36" height="18" rx="4" style="animation-delay:-2.42s"/>
+  <rect class="k" x="734" y="240" width="36" height="18" rx="4" style="animation-delay:-2.83s"/>
+  <rect class="k" x="272" y="264" width="36" height="18" rx="4" style="animation-delay:-3.24s"/>
+  <rect class="k" x="314" y="264" width="36" height="18" rx="4" style="animation-delay:-0.35s"/>
+  <rect class="k" x="356" y="264" width="36" height="18" rx="4" style="animation-delay:-0.76s"/>
+  <rect class="k" x="398" y="264" width="36" height="18" rx="4" style="animation-delay:-1.17s"/>
+  <rect class="k" x="440" y="264" width="36" height="18" rx="4" style="animation-delay:-1.58s"/>
+  <rect class="k" x="482" y="264" width="36" height="18" rx="4" style="animation-delay:-1.99s"/>
+  <rect class="k" x="524" y="264" width="36" height="18" rx="4" style="animation-delay:-2.40s"/>
+  <rect class="k" x="566" y="264" width="36" height="18" rx="4" style="animation-delay:-2.81s"/>
+  <rect class="k" x="608" y="264" width="36" height="18" rx="4" style="animation-delay:-3.22s"/>
+  <rect class="k" x="650" y="264" width="36" height="18" rx="4" style="animation-delay:-0.33s"/>
+  <rect class="k" x="692" y="264" width="36" height="18" rx="4" style="animation-delay:-0.74s"/>
+  <rect class="k" x="734" y="264" width="36" height="18" rx="4" style="animation-delay:-1.15s"/>
+
+  <!-- esqueleto -->
+  <g fill="#e8e4d6" stroke="#9a9482" stroke-width="1">
+    <rect x="134" y="206" width="12" height="8" rx="3"/><rect x="134" y="216" width="12" height="8" rx="3"/>
+    <rect x="134" y="226" width="12" height="8" rx="3"/><rect x="134" y="236" width="12" height="40" rx="4"/>
+    <rect x="94" y="232" width="92" height="9" rx="4.5"/>
+    <path d="M110 246 Q140 292 170 246" fill="none" stroke="#e8e4d6" stroke-width="5" stroke-linecap="round"/>
+    <path d="M118 262 Q140 294 162 262" fill="none" stroke="#e8e4d6" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g stroke="#e8e4d6" stroke-width="8" stroke-linecap="round">
+    <line x1="176" y1="237" x2="352" y2="232"/><line x1="176" y1="237" x2="470" y2="262"/>
+  </g>
+  <circle cx="176" cy="237" r="8" fill="#e8e4d6" stroke="#9a9482"/>
+  <g class="mao" style="animation-delay:0s" fill="#e8e4d6" stroke="#9a9482" stroke-width="1">
+    <rect x="352" y="222" width="46" height="19" rx="8"/><rect x="396" y="223.0" width="15" height="3.8" rx="1.9"/><rect x="396" y="227.6" width="15" height="3.8" rx="1.9"/><rect x="396" y="232.2" width="15" height="3.8" rx="1.9"/><rect x="396" y="236.8" width="15" height="3.8" rx="1.9"/></g>
+  <g class="mao" style="animation-delay:0.25s" fill="#e8e4d6" stroke="#9a9482" stroke-width="1">
+    <rect x="470" y="252" width="46" height="19" rx="8"/><rect x="514" y="253.0" width="15" height="3.8" rx="1.9"/><rect x="514" y="257.6" width="15" height="3.8" rx="1.9"/><rect x="514" y="262.2" width="15" height="3.8" rx="1.9"/><rect x="514" y="266.8" width="15" height="3.8" rx="1.9"/></g>
+
+  <!-- caveira -->
+  <g class="cabeca">
+    <path d="M80 118 C80 72 108 58 140 58 C172 58 200 72 200 118 C200 138 192 150 180 158 L180 168 L100 168 L100 158 C88 150 80 138 80 118 Z" fill="#e8e4d6" stroke="#9a9482" stroke-width="2"/>
+    <path d="M150 62 L146 76 L154 84 L148 96" fill="none" stroke="#9a9482" stroke-width="2" stroke-linecap="round"/>
+    <ellipse cx="116" cy="122" rx="17" ry="20" fill="#0d1117"/><ellipse cx="164" cy="122" rx="17" ry="20" fill="#0d1117"/>
+    <circle class="olho" cx="116" cy="124" r="6"/><circle class="olho" cx="164" cy="124" r="6"/>
+    <path d="M140 140 L132 158 L148 158 Z" fill="#0d1117"/>
+    <g class="mandibula">
+      <path d="M100 168 H180 L176 196 Q140 210 104 196 Z" fill="#e8e4d6" stroke="#9a9482" stroke-width="2"/>
+      <g stroke="#9a9482" stroke-width="2"><line x1="113" y1="170" x2="113" y2="198"/><line x1="127" y1="170" x2="127" y2="203"/><line x1="140" y1="170" x2="140" y2="205"/><line x1="153" y1="170" x2="153" y2="203"/><line x1="167" y1="170" x2="167" y2="198"/></g>
+    </g>
+    <!-- fone de ouvido -->
+    <path d="M78 112 C78 40 202 40 202 112" fill="none" stroke="#58a6ff" stroke-width="7" stroke-linecap="round"/>
+    <rect x="68" y="102" width="16" height="36" rx="7" fill="#1f6feb" stroke="#58a6ff" stroke-width="2"/>
+    <rect x="196" y="102" width="16" height="36" rx="7" fill="#1f6feb" stroke="#58a6ff" stroke-width="2"/>
+  </g>
+</svg>

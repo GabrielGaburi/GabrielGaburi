@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="teclado.svg" alt="Código sendo digitado: Gabriel, estudante de Ciência da Computação" width="700">
+  <img src="caveira.svg" alt="Uma caveira de fone de ouvido programando em um notebook" width="700">
 </p>
 
 # Olá, eu sou o Gabriel 👋
